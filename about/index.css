@@ -1,0 +1,370 @@
+::-moz-selection {
+    background: #b3d4fc;
+}
+
+::selection {
+    background: #b3d4fc;
+}
+
+p {
+    margin: 0;
+}
+
+a{
+    color: #4183C4;
+}
+
+.selectable {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    background: #fafafa;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -ms-overflow-style: none;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: calc(100vw * 0.75);
+    background: url("screenshot_background.png");
+    background-size: contain;
+}
+
+.logo-big {
+    width: 25%;
+}
+
+.app-name {
+    margin: 0;
+    color: white;
+    font-size: 28px;
+}
+
+.app-intro {
+    margin: 8px 0 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: white;
+    font-size: 18px;
+}
+
+.detail {
+    width: calc(100% - 32px);
+    margin: 32px 16px 48px;
+}
+
+h1 {
+    margin: 0 0 12px;
+}
+
+.description {
+    font-size: 20px;
+    margin: 0 0 16px;
+}
+
+.card {
+    padding: 12px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 2px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+}
+
+.noti-title-row {
+    margin-bottom: 4px;
+    height: 24px;
+}
+
+.noti-logo {
+    float: left;
+    width: 24px;
+}
+
+.noti-app-name {
+    margin-left: 8px;
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: center;
+    color: #444;
+}
+
+.noti-time {
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: center;
+    color: #444;
+}
+
+.noti-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.course-title-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.course-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-cached {
+    color: #777;
+    padding: 0 2px;
+    margin-left: 8px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #777;
+}
+
+.course-info {
+    margin: 0 0 16px;
+    font-size: 18px;
+}
+
+.progress-bg {
+    position: relative;
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 22px;
+    border-radius: 11px;
+    margin-bottom: 4px;
+}
+
+.progress-bar {
+    background-color: #90CAF9;
+    width: 86.8%;
+    height: 22px;
+    border-radius: 11px;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ass-title {
+    margin: 0 0 4px;
+    background-color: #F5F5F5;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.ass-avg {
+    margin: 0 0 8px;
+    padding-left: 4px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.smallmark-edit-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    margin-bottom: 16px;
+}
+
+.smallmark-edit-container::-webkit-scrollbar {
+    display: none;
+}
+
+.smallmark-edit {
+    flex-shrink: 0;
+    width: 54px;
+    text-align: center;
+    color: #757575;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.smallmark-percent {
+    font-size: 18px;
+}
+
+.get-total {
+    margin-top: -4px;
+    font-size: 15px;
+}
+
+.small-mark-bar {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.category-name {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.weight-edit {
+    background-color: #F5F5F5;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.button-bar {
+    height: 42px;
+}
+
+.fake-button-positive {
+    float: right;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: #2196F3;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.fake-button-neutral {
+    float: right;
+    color: #2196F3;
+    padding: 10px 16px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.date-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.cale-weekday {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.cale-day {
+    background-color: #F5F5F5;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.today {
+    background-color: #2196f3;
+    color: white;
+}
+
+.event {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2196f3;
+}
+
+.event-detail-row{
+    padding: 0 4px;
+    height: 24px;
+}
+
+.event-icon{
+    float: left;
+    width: 24px;
+}
+
+.event-name{
+    float: left;
+    line-height: 24px;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.event-time{
+    float: right;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.screenshots-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+}
+
+.screenshots-container::-webkit-scrollbar {
+    display: none;
+}
+
+.screenshot{
+    width: 250px;
+    margin: 4px 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.store-link-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-desktop{
+    margin-top: 16px;
+}
+
+footer{
+    background-color: black;
+    color: #ccc;
+    padding: 16px;
+}
+
+.pegasis-copyright{
+    color: white;
+}
+
+footer a{
+    color: #4991da;
+}
